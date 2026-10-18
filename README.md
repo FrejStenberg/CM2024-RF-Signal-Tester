@@ -46,11 +46,15 @@ Requirements
 - A Wi-Fi router broadcasting the target network
 
 Setup
-- Install the Arduino IDE and configure ESP32 board support.
-- Connect the LEDs to GPIO pins 2, 3 and 4, and connect the reset button to GPIO 5, following the circuit configuration.
-- Open the source file in the src directory.
-- Change the target SSID in the code to match the Wi-Fi network being tested.
-- Select the appropriate ESP32-C3 board and port in the Arduino IDE.
-- Upload the program to the board.
-- Open the serial monitor to observe RSSI readings and network detection status.
-- Move the receiver to different locations and observe the LED indication.
+- Install the Arduino IDE and configure ESP32 board support
+- Connect the LEDs to GPIO pins 2, 3 and 4
+- Open the source file in the src directory
+- Change the target SSID in the code to match the Wi-Fi network being tested
+- Select the appropriate ESP32-C3 board and port in the Arduino IDE
+- Upload the program to the board
+- Open the serial monitor to observe RSSI readings and network detection status
+- Move the receiver to different locations and observe the LED indication
+
+## License
+This project was developed for educational purposes as part of the CM2024 Technology and Health Project Course at KTH Royal Institute of Technology.
+No open-source license has been specified for this project. If you use, modify, or build upon this work, please acknowledge the original developers and include a link to this repository.
