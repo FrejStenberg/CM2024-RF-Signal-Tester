@@ -3,6 +3,8 @@ A project developed as part of a course at KTH Royal Institute of Technology, wi
 
 The resulting signal-strength information could be used by healthcare professionals, medical technology personnel, healthcare facility planners and construction teams when planning, building, or renovating healthcare environments where reliable wireless communication is important, such as for wrist-worn epilepsy alarms.
 
+This project was done simultaneously to an ongoing thesis project investigating the effect of obstructions on 869.2 MHz RF signals. 
+
 ## Function
 The device scans for a selected Wi-Fi network and measures its received signal strength indicator (RSSI). The measured signal strength is compared against predefined thresholds and classified into four levels: high, medium, low, and zero or no signal.
 
@@ -11,6 +13,9 @@ The current prototype uses the ESP32-C3's 2.4 GHz Wi-Fi functionality to perform
 The project was initially conceptualised as a test device for RF signals at 869.2 MHz, specifically to assess the signal coverage of wrist-worn epilepsy alarms. The current 2.4 GHz Wi-Fi implementation serves as a proof of concept for the signal measurement, classification, and visual indication functions. This approach was chosen because implementing direct measurements at 869.2 MHz would require suitable radio hardware and consideration of the applicable frequency-allocation and transmission regulations. Additionally, 2.4 GHz Wi-Fi provides an accessible platform for developing and testing the prototype's core functionality.
 
 The Wi-Fi implementation does not directly measure the signal strength or reliability of 869.2 MHz epilepsy alarms. Further hardware development and testing would be required to support that application.
+
+Test data regarding the effects of obstructions on 869.2 MHz from the ongoing thesis project can be found via the following link:
+https://1drv.ms/x/c/dde7912a5181b389/IQDyl5iqYgxKSpSey7zF3OhCAWKzqpRJsyApy90Zs_NbsB4
 
 ## Signal Generator
 A TP-Link TL-WR802N wireless router was selected as the Wi-Fi access point used to generate the test signal. The router is powered on and configured to broadcast a Wi-Fi network. The target network's SSID is stored in the prototype's source code as a constant character string, allowing the device to identify and measure the signal from the selected network.
