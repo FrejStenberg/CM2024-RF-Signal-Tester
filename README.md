@@ -31,7 +31,7 @@ A new ESP32-C3 development board was used to construct the prototype. Pin header
 A custom 3D-printed case was designed and printed to hold the breadboard inside, containing a tray and a lid. The tray included a cable hole, while the lid included three openings to expose the LEDs.
 
 ## General
-The RSSI thresholds used by the prototype to distinguish between signal levels have been set with the help of information of the National Health Service (NHS) in England as well as Cisco are defined as follows:
+The RSSI thresholds used by the prototype to distinguish between signal levels have been set with the help of information of the [National Health Service](https://digital.nhs.uk/services/networks-and-connectivity-centre-of-excellence/knowledge-products-and-artefacts/advice-and-guidance/wi-fi-metrics-and-measures/assessing-wi-fi-performance-metrics//) (NHS) in England as well as [Cisco](https://www.cisco.com/c/en/us/products/collateral/wireless/draeger-patient-monitoring-cat-wireless-dg.html) are defined as follows:
 - High: −67 dBm or higher.
 - Medium: Below −67 dBm and down to −75 dBm.
 - Low: Below −75 dBm and down to −83 dBm.
